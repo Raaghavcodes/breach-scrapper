@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache
+.pytest_cache/
+
+# Local Data Cache (Confidential Data)
+hhs_data/
+*.csv
+*.xlsx
+*.numbers
+hhs_new_entries.json
+page.html
+scraper_output.log
+scraper_error.log
+*.log
+
+# System/IDE configs
+.DS_Store
+.idea/
+.vscode/
+
+# Local configurations / Daemon Launchers
+com.rrr.breachscraper.plist
+.env
+.env.local
+.env.*.local
